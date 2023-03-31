@@ -27,7 +27,7 @@ ENV QT_DEBUG_PLUGINS=1
 ENV QT_QPA_PLATFORM=xcb
 ENV QT_QPA_PLATFORM_PLUGIN_PATH=/opt/Qt/${QT_VERSION}/gcc_64/plugins
 ENV QT_PLUGIN_PATH=/opt/Qt/${QT_VERSION}/gcc_64/plugins
-ENV DISPLAY=:1
+ENV DISPLAY=:2
 
 # can be needed check
 # RUN apt-get update
