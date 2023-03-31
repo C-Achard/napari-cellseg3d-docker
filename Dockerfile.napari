@@ -23,7 +23,7 @@ RUN pip3 install --no-cache-dir --upgrade pip \
 RUN pip3 install --no-cache-dir napari-cellseg3d
 
 #Qt display config
-ENV QT_DEBUG_PLUGINS=1
+ENV QT_DEBUG_PLUGINS=0
 ENV QT_QPA_PLATFORM=xcb
 ENV QT_QPA_PLATFORM_PLUGIN_PATH=/opt/Qt/${QT_VERSION}/gcc_64/plugins
 ENV QT_PLUGIN_PATH=/opt/Qt/${QT_VERSION}/gcc_64/plugins
